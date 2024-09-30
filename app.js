@@ -31,3 +31,13 @@ fahrenheitInput.addEventListener('input', function(){
     celciusInput.value = roundNumber(cTemp)
     kelvinInput.value = roundNumber(kTemp)
 })
+
+// Kelvin to Celcius and Fahrenheit
+kelvinInput.addEventListener('input', function(){
+    let kTemp = parseFloat(kelvinInput.value);
+    let cTemp = kTemp - 273.15
+    let fTemp = (kTemp - 273.15) * (9/5) +32
+
+    celciusInput.value = roundNumber(cTemp)
+    fahrenheitInput.value = roundNumber(fTemp)
+})
