@@ -19,3 +19,18 @@ body{
     font-family: sans-serif;
     padding: 20px;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.Temperature-icon{
+    font-size: 45px;
+    color: #fff;
+}
+h1{
+   color: #fff;
+   letter-spacing: 1.4px; 
+}
