@@ -51,3 +51,14 @@ input{
     border-radius: 8px 0 0 8px;
     padding: 0 10px;
 }
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #4d5964;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
