@@ -11,6 +11,8 @@ function roundNumber(number){
     return Math.round(number*100)/100;
 }
 
+// Celcius to Fahrenheit and Kelvin
+
 celciusInput.addEventListener('input', function(){
     let cTemp = parseFloat(celciusInput.value);
     let fTemp = (cTemp*(9/5)) + 32;
@@ -20,6 +22,7 @@ celciusInput.addEventListener('input', function(){
     kelvinInput.value = roundNumber(kTemp)
 })
 
+// Fahrenheit to Celcius and Kelvin
 fahrenheitInput.addEventListener('input', function(){
     let fTemp = parseFloat(fahrenheitInput.value);
     let cTemp = (fTemp - 32) * (5/9)
