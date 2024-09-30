@@ -32,7 +32,8 @@ body{
 }
 h1{
    color: #fff;
-   letter-spacing: 1.4px; 
+   letter-spacing: 1.2px; 
+   font-size: 30px;
 }
 #celcius, #fahrenheit, #kelvin{
     display: flex;
@@ -56,6 +57,12 @@ input{
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button{
     -webkit-appearance: none;
+}
+
+
+/* for Mozila firefox*/
+input{
+    -moz-appearance: textfield;
 }
 .icon{
     flex: 1;
